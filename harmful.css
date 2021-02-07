@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    /* background-repeat: no-repeat; */
+    color: rgb(8, 8, 8);
+    text-align: center;
+
+}
+
+#solution {
+    color: rgb(217, 217, 223);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 28px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+p {
+    font-size: 25px;
+    font-weight: 100em;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+ 
+}
+
+li {
+    font-weight: 10em;
+    font-size: 20px;
+
+}
+#image{
+   max-width: 400px;
+}
+#mac {
+  width: 30%;
+ height: 50%;
+}
+
+#mac2 {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.health {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(28, 0, 128);
+}
+
+#recycle {
+    color: red;
+}
+
+#began {
+    font-size: 30px;
+    color: rgb(28, 0, 128);
+}
+
+.li {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+#raamu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 17px;
+    /* background-color: rgb(141, 211, 243);
+    padding: 2.5px; */
+    border-radius: 10px;
+}
+
+#raamu:hover {
+    font-weight: 900;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background-color: skyblue;
+    position: fixed;
+    width: 100%;
+}
+
+/* 
+li :hover{
+    background-color: rgb(202, 0, 202);
+border-radius: 10px;
+} */
+
+#earth-plastic {
+    width: 400px;
+}
+
+/* div{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+    background-color: rgba(190, 81, 81, 0.815);
+    margin: 50px;
+    padding:8px;
+    border-radius: 50px;
+} */
+
+#hi-fi {
+    font-size: 50px;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+h1 {
+    color: rgb(28, 0, 128);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+   
+}
+
+@media only screen and (max-width:600px) {
+
+    p{
+        font-size: 15px;
+        line-height: px;
+        
+    }
+    nav{
+        width:99.9vw;
+      
+    }
+   #raamu{
+        font-size: 10px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+ #earth-plastic{
+     width: 370px;
+ }
+
+ #hi-fi{
+     font-size: 40px;
+ }
+
+ h1{
+     font-size: 25px;
+ }
+
+}
